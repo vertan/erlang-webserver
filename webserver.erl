@@ -122,7 +122,6 @@ get_content_type(Ext) ->
 	"ico" ->
 	    "Content-Type: image/ico\r\n";
 	"png" ->
-	    timer:sleep(120000),
 	    "Content-Type: image/png\r\n";
 	"gif" ->
 	    "Content-Type: image/gif\r\n";
