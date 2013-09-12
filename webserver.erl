@@ -15,7 +15,7 @@
 -define(SERVER, "ErlangWebServer"). %% Server name in response
 
 %%---------------------------------------------
-%% Function: init/0
+%% Function: start/0
 %% Purpose: Initializes a new web server
 %%---------------------------------------------
 start() ->
